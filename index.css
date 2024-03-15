@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,500;0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    padding-top: 15px;
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    height: 5rem;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 30px;
+    box-shadow: rgba(102, 116, 204, 0.25) 0px 4px 10px;
+}
+.container .navbar .logo{
+    background-color: rgb(10, 10, 10);
+}
+.container .navbar h2{
+    
+    color: white;
+    background-color: rgb(10, 10, 10);
+}
+.container .navbar h2 span{
+    color: rgb(68, 68, 141);
+    background-color: rgb(10, 10, 10);
+} 
+.container .navbar .nav{
+    padding-right: 9rem;
+    background-color: rgb(10, 10, 10);
+}
+.container .navbar .nav a{
+    background-color: rgb(10, 10, 10);
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+.container .navbar .nav a:hover{
+    color: orangered;
+    transition: 0.2s ease-in;
+}
+.hero-section{
+    width: 100%;
+    height: 36rem;
+    display: flex;
+}
+.hero-section h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-left: 3rem;
+    padding-top: 10rem;
+    color: white;
+}
+.hero-section h1 span{
+    color: rgb(68, 68, 141);
+}
+.hero-section p{
+    color: rgb(141, 139, 139);
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+.hero-section img{
+    height: 25rem;
+    width: 20rem;
+    padding-left: 3rem;
+    padding-top: 9rem;
+}
+.hero-section button{
+  color: white;
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin: 5px;
+  margin-left: 5rem;
+  margin-top: 40px;
+  padding: 10px 15px;
+  text-align: center;
+}
+.mentor-section{
+    width: 100%;
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.mentor-section .instruct{
+    height: 9rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+}
+.mentor-section .info{
+    display: flex;
+}
+.mentor-section img{
+    padding-left: 8rem;
+    border-radius: 20px;
+    height: 20rem;
+    width: 25rem;
+}
+.mentor-section  .intro{
+    padding-left: 6rem;
+    padding-right: 5rem;
+}
+.mentor-section  .intro h2{
+    font-size: 2rem;
+}
+.mentor-section  .intro h5{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.highlights{
+    width: 100%;
+    height: 40rem;
+}
+.highlights h2{
+    height: 9rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 2.2rem;
+    color: white;
+}
+.highlights .grids{
+    height: 20rem;
+    padding-left: 8rem;
+   display: flex;
+}
+.highlights .grid{
+   padding-right: 50px;
+}
+.highlights .grid img{
+    width: 17rem;
+
+}
+.highlights .grid h5{
+    padding-top: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.highlights .grid p{
+    padding-top: 5px;
+    color: rgb(182, 179, 179);
+}
+.highlights .grid p span{
+    font-size:18px;
+    color: white;
+}
+.overview{
+    width: 100%;
+    height: 40rem;
+    color: white;
+}
+.overview .overview1
+{
+    height: 9rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2.2rem;
+    color: white;text-align: center;
+}
+.overview .objectives{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.overview .objectives p{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: rgb(68, 68, 141);
+}
+.overview .objectives ul{
+    padding-bottom: 8px;
+}
+.overview .structure{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.overview .structure p{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: rgb(68, 68, 141);
+}
+.overview .structure ul{
+    padding-bottom: 8px;
+}
+.overview .duration{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.overview .duration span{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: rgb(68, 68, 141);
+}
+.overview .last-para{
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
